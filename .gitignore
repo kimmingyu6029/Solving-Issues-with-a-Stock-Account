@@ -1,0 +1,25 @@
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Streamlit and local secrets
+.streamlit/secrets.toml
+.env
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
